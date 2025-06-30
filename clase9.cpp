@@ -90,3 +90,49 @@ int main() {
     return 0;
 
 }
+
+
+//Clase 16
+
+#include <iostream>
+#include <stdio.h>
+
+
+using namespace std;
+
+
+bool esPar(int a) {
+    int c;
+    int r;
+    c = a / 2;
+    r = a - (c * 2);
+    if (r == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+void saluda(int a) {
+    int i;
+    for (i = 0; i < a; i++) {
+        printf("\n Hola");
+    }
+}
+
+
+int main() {
+
+    int w;
+    printf("Ingrese un numero: ");
+    scanf("%d", &w);
+    if (esPar(w) == true) {
+        printf("\nEl numero es PAR");
+    } else {
+        printf("\nEl numero es IMPAR");
+    }
+    printf("\n\n-- Invocando al procedimiento saluda --");
+    saluda(4);
+    return 0;
+
+}
