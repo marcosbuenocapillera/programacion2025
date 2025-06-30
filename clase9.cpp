@@ -23,3 +23,24 @@ int main() {
     printf("\nEl resultado de la suma es: %d\n", c);
     return 0;
 }
+
+
+
+//Clase_12
+
+#include <iostream>
+#include <stdio.h> /
+
+using namespace std;
+
+int main() {
+
+char a;
+    a=' ';
+    printf("\nIngrese caracter ");
+    scanf("%c",&a);
+    printf("\n El caracter entrado es %C", a);
+
+    return 0;
+    
+}
