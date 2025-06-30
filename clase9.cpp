@@ -136,3 +136,34 @@ int main() {
     return 0;
 
 }
+
+
+//EJERCICO 1  MIERCOLES 2 
+
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int producto(int a, int b) {
+
+    int resultado_multiplicacion = a * b;
+    return resultado_multiplicacion;
+
+}
+
+int main() {
+
+    int numero1;
+    int numero2;
+    int resultado_final;
+    printf("--- Calculadora de Productos ---\n");
+    printf("Ingrese el primer numero entero: ");
+    scanf("%d", &numero1);
+    printf("Ingrese el segundo numero entero: ");
+    scanf("%d", &numero2);
+    resultado_final = producto(numero1, numero2);
+    printf("\nEl resultado de la multiplicacion es: %d\n", resultado_final);
+    return 0;
+
+}
