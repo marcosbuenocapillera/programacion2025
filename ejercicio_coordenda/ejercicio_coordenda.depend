@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1757115287 source:/home/marcos/programacion/ejercicio_coordenda/coordenada.cpp
+	"coordenada.h"
+	<stdio.h>
+
+1757115038 /home/marcos/programacion/ejercicio_coordenda/coordenada.h
+
