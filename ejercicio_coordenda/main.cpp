@@ -10,20 +10,16 @@ using namespace std;
 
 int main()
 {
-    coordenada w; // Creamos una variable de nuestro nuevo tipo
-    int z = 0;   // Variable auxiliar para leer los datos
+    coordenada w; 
+    int z = 0;  
 
     printf("\nIngresar valor para x: ");
     scanf("%d", &z);
-    modificarX(w, z); // Usamos la función de nuestra librería para modificar w
-
+    modificarX(w, z); 
     printf("\nIngresar valor para y: ");
     scanf("%d", &z);
-    modificarY(w, z); // Reutilizamos z y llamamos a la otra función
-
-    mostrarCoordenada(w); // Mostramos el resultado final
-
-    // Pausa para que la consola no se cierre inmediatamente
+    modificarY(w, z); 
+    mostrarCoordenada(w); 
     printf("\n\nPress any key to continue.");
 
 
